@@ -24,9 +24,9 @@ public class Imc extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        pesoText = new TextField("Peso:");
+        pesoText = new TextField();
 
-        alturaText = new TextField("Altura:");
+        alturaText = new TextField();
 
         saludLabel = new Label();
         resultadoLabel = new Label();
